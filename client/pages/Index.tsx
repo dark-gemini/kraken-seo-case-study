@@ -164,7 +164,7 @@ export default function Index() {
             style={{ fontFamily: "Montserrat, Helvetica, Arial, sans-serif" }}
           >
             {/* 1. Introduction */}
-            <section className="mb-12">
+            <section id="introduction" className="mb-12 scroll-mt-24">
               <h2
                 className="text-3xl font-semibold mb-6"
                 style={{ color: "rgb(30, 31, 37)" }}
