@@ -672,69 +672,96 @@ export default function Index() {
                       </div>
                     </div>
 
-                    <div className="bg-white rounded-lg p-6 shadow-md border border-gray-200 text-center">
-                      <div className="text-3xl mb-2">⚡</div>
-                      <div
-                        className="text-3xl font-bold mb-2"
-                        style={{ color: "rgb(252, 141, 85)" }}
-                      >
-                        +40%
-                      </div>
-                      <div
-                        className="text-sm font-medium"
-                        style={{ color: "rgb(30, 31, 37)" }}
-                      >
-                        Page Load Improvement
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-2 mt-3">
+                    <div
+                      className="rounded-xl p-6 text-center border relative overflow-hidden group hover:scale-105 transition-transform duration-300"
+                      style={{
+                        backgroundColor: "#1E1B3A",
+                        borderColor: "#374151",
+                      }}
+                    >
+                      <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/10 to-orange-600/5"></div>
+                      <div className="relative z-10">
+                        <div className="text-4xl mb-3">⚡</div>
+                        <div className="text-4xl font-bold mb-2 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+                          +40%
+                        </div>
                         <div
-                          className="bg-orange-500 h-2 rounded-full"
-                          style={{ width: "40%" }}
-                        ></div>
+                          className="text-sm font-medium"
+                          style={{ color: "#D1D5DB" }}
+                        >
+                          Page Load Improvement
+                        </div>
+                        <div
+                          className="w-full rounded-full h-3 mt-4"
+                          style={{ backgroundColor: "#374151" }}
+                        >
+                          <div
+                            className="bg-gradient-to-r from-yellow-500 to-orange-600 h-3 rounded-full shadow-lg"
+                            style={{ width: "40%" }}
+                          ></div>
+                        </div>
                       </div>
                     </div>
 
-                    <div className="bg-white rounded-lg p-6 shadow-md border border-gray-200 text-center">
-                      <div className="text-3xl mb-2">🤖</div>
-                      <div
-                        className="text-3xl font-bold mb-2"
-                        style={{ color: "rgb(59, 130, 246)" }}
-                      >
-                        +60%
-                      </div>
-                      <div
-                        className="text-sm font-medium"
-                        style={{ color: "rgb(30, 31, 37)" }}
-                      >
-                        Team Efficiency Boost
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-2 mt-3">
+                    <div
+                      className="rounded-xl p-6 text-center border relative overflow-hidden group hover:scale-105 transition-transform duration-300"
+                      style={{
+                        backgroundColor: "#1E1B3A",
+                        borderColor: "#374151",
+                      }}
+                    >
+                      <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-cyan-600/5"></div>
+                      <div className="relative z-10">
+                        <div className="text-4xl mb-3">🤖</div>
+                        <div className="text-4xl font-bold mb-2 bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent">
+                          +60%
+                        </div>
                         <div
-                          className="bg-blue-500 h-2 rounded-full"
-                          style={{ width: "60%" }}
-                        ></div>
+                          className="text-sm font-medium"
+                          style={{ color: "#D1D5DB" }}
+                        >
+                          Team Efficiency Boost
+                        </div>
+                        <div
+                          className="w-full rounded-full h-3 mt-4"
+                          style={{ backgroundColor: "#374151" }}
+                        >
+                          <div
+                            className="bg-gradient-to-r from-blue-500 to-cyan-600 h-3 rounded-full shadow-lg"
+                            style={{ width: "60%" }}
+                          ></div>
+                        </div>
                       </div>
                     </div>
 
-                    <div className="bg-white rounded-lg p-6 shadow-md border border-gray-200 text-center">
-                      <div className="text-3xl mb-2">🌍</div>
-                      <div
-                        className="text-2xl font-bold mb-2"
-                        style={{ color: "rgb(168, 85, 247)" }}
-                      >
-                        Full
-                      </div>
-                      <div
-                        className="text-sm font-medium"
-                        style={{ color: "rgb(30, 31, 37)" }}
-                      >
-                        Hreflang Coverage
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-2 mt-3">
+                    <div
+                      className="rounded-xl p-6 text-center border relative overflow-hidden group hover:scale-105 transition-transform duration-300"
+                      style={{
+                        backgroundColor: "#1E1B3A",
+                        borderColor: "#374151",
+                      }}
+                    >
+                      <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-violet-600/5"></div>
+                      <div className="relative z-10">
+                        <div className="text-4xl mb-3">🌍</div>
+                        <div className="text-4xl font-bold mb-2 bg-gradient-to-r from-purple-400 to-violet-500 bg-clip-text text-transparent">
+                          Full
+                        </div>
                         <div
-                          className="bg-purple-500 h-2 rounded-full"
-                          style={{ width: "100%" }}
-                        ></div>
+                          className="text-sm font-medium"
+                          style={{ color: "#D1D5DB" }}
+                        >
+                          Hreflang Coverage
+                        </div>
+                        <div
+                          className="w-full rounded-full h-3 mt-4"
+                          style={{ backgroundColor: "#374151" }}
+                        >
+                          <div
+                            className="bg-gradient-to-r from-purple-500 to-violet-600 h-3 rounded-full shadow-lg"
+                            style={{ width: "100%" }}
+                          ></div>
+                        </div>
                       </div>
                     </div>
                   </div>
