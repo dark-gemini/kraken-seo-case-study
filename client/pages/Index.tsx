@@ -83,33 +83,44 @@ export default function Index() {
       </header>
 
       {/* Hero Section */}
-      <section id="hero" className="py-12 px-5 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h1
-            className="text-5xl font-bold mb-4"
-            style={{
-              color: "rgb(30, 31, 37)",
-              fontFamily: "Montserrat, Helvetica, Arial, sans-serif",
-            }}
+      <section
+        id="hero"
+        className="py-16 px-5 text-center relative overflow-hidden"
+      >
+        <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-violet-800/10 to-indigo-900/20"></div>
+        <div className="max-w-4xl mx-auto relative z-10">
+          <div
+            className="inline-flex items-center space-x-3 mb-6 px-4 py-2 rounded-full"
+            style={{ backgroundColor: "#1E1B3A", border: "1px solid #8B5CF6" }}
           >
-            Technical SEO Case Study: Kraken
-          </h1>
-          <p className="text-xl mb-6" style={{ color: "rgb(30, 31, 37)" }}>
-            How I helped a global crypto exchange boost organic traffic by 85%
-            through comprehensive technical SEO optimization
-          </p>
-          <div className="text-lg mb-2">
-            <span style={{ color: "rgb(30, 31, 37)" }}>Written By </span>
-            <a
-              href="#"
-              className="font-semibold hover:underline"
-              style={{ color: "rgb(252, 141, 85)" }}
-            >
-              Joe Firth
-            </a>
+            <span className="text-2xl">🐙</span>
+            <span className="text-sm font-medium" style={{ color: "#8B5CF6" }}>
+              Kraken SEO Deep Dive
+            </span>
           </div>
-          <div className="text-base" style={{ color: "rgb(30, 31, 37)" }}>
-            Last Updated On July 4, 2025
+          <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-violet-300 bg-clip-text text-transparent">
+            Technical SEO Case Study
+          </h1>
+          <p
+            className="text-xl mb-8 leading-relaxed"
+            style={{ color: "#D1D5DB" }}
+          >
+            How I helped a global crypto exchange boost organic traffic by{" "}
+            <span className="text-purple-400 font-bold">85%</span> through
+            comprehensive technical SEO optimization
+          </p>
+          <div className="flex items-center justify-center space-x-6 text-sm">
+            <div className="flex items-center space-x-2">
+              <div className="w-8 h-8 rounded-full bg-gradient-to-r from-purple-500 to-violet-600 flex items-center justify-center">
+                <span className="text-white text-xs font-bold">JF</span>
+              </div>
+              <span style={{ color: "#D1D5DB" }}>Joe Firth</span>
+            </div>
+            <div
+              className="w-1 h-1 rounded-full"
+              style={{ backgroundColor: "#6B7280" }}
+            ></div>
+            <span style={{ color: "#9CA3AF" }}>July 4, 2025</span>
           </div>
         </div>
       </section>
