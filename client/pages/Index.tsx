@@ -1067,8 +1067,8 @@ export default function Index() {
                   <em>
                     This case study is based on publicly available information,
                     industry research, and established SEO best practices. All
-                    data and strategies represent realistic scenarios for
-                    enterprise-level technical SEO implementation.
+                    data and strategies represent scenarios for enterprise-level
+                    technical SEO implementation.
                   </em>
                 </p>
                 <div className="grid md:grid-cols-2 gap-4">
