@@ -583,7 +583,7 @@ export default function Index() {
             </section>
 
             {/* 3. Results */}
-            <section className="mb-12">
+            <section id="results" className="mb-12 scroll-mt-24">
               <h2
                 className="text-3xl font-semibold mb-6"
                 style={{ color: "rgb(30, 31, 37)" }}
@@ -611,6 +611,98 @@ export default function Index() {
                       </em>
                     </p>
                   </div>
+
+                  {/* Visual KPI Cards */}
+                  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                    <div className="bg-white rounded-lg p-6 shadow-md border border-gray-200 text-center">
+                      <div className="text-3xl mb-2">📈</div>
+                      <div
+                        className="text-3xl font-bold mb-2"
+                        style={{ color: "rgb(124, 198, 141)" }}
+                      >
+                        +85%
+                      </div>
+                      <div
+                        className="text-sm font-medium"
+                        style={{ color: "rgb(30, 31, 37)" }}
+                      >
+                        Organic Traffic Growth
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2 mt-3">
+                        <div
+                          className="bg-green-500 h-2 rounded-full"
+                          style={{ width: "85%" }}
+                        ></div>
+                      </div>
+                    </div>
+
+                    <div className="bg-white rounded-lg p-6 shadow-md border border-gray-200 text-center">
+                      <div className="text-3xl mb-2">⚡</div>
+                      <div
+                        className="text-3xl font-bold mb-2"
+                        style={{ color: "rgb(252, 141, 85)" }}
+                      >
+                        +40%
+                      </div>
+                      <div
+                        className="text-sm font-medium"
+                        style={{ color: "rgb(30, 31, 37)" }}
+                      >
+                        Page Load Improvement
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2 mt-3">
+                        <div
+                          className="bg-orange-500 h-2 rounded-full"
+                          style={{ width: "40%" }}
+                        ></div>
+                      </div>
+                    </div>
+
+                    <div className="bg-white rounded-lg p-6 shadow-md border border-gray-200 text-center">
+                      <div className="text-3xl mb-2">🤖</div>
+                      <div
+                        className="text-3xl font-bold mb-2"
+                        style={{ color: "rgb(59, 130, 246)" }}
+                      >
+                        +60%
+                      </div>
+                      <div
+                        className="text-sm font-medium"
+                        style={{ color: "rgb(30, 31, 37)" }}
+                      >
+                        Team Efficiency Boost
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2 mt-3">
+                        <div
+                          className="bg-blue-500 h-2 rounded-full"
+                          style={{ width: "60%" }}
+                        ></div>
+                      </div>
+                    </div>
+
+                    <div className="bg-white rounded-lg p-6 shadow-md border border-gray-200 text-center">
+                      <div className="text-3xl mb-2">🌍</div>
+                      <div
+                        className="text-2xl font-bold mb-2"
+                        style={{ color: "rgb(168, 85, 247)" }}
+                      >
+                        Full
+                      </div>
+                      <div
+                        className="text-sm font-medium"
+                        style={{ color: "rgb(30, 31, 37)" }}
+                      >
+                        Hreflang Coverage
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2 mt-3">
+                        <div
+                          className="bg-purple-500 h-2 rounded-full"
+                          style={{ width: "100%" }}
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="bg-green-50 rounded-lg p-6 border border-green-200">
                       <h4
