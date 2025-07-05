@@ -17,6 +17,75 @@ export default function Index() {
             significant growth in organic traffic.
           </p>
 
+          {/* Converter Pages Strategy Section */}
+          <div className="bg-slate-900/50 rounded-lg p-6 mb-8 border border-slate-800">
+            <h2 className="text-2xl font-semibold mb-4 text-white">
+              🧠 Scalable SEO for Converter Pages
+            </h2>
+
+            <div className="space-y-4">
+              <div>
+                <h3 className="text-lg font-semibold text-yellow-400 mb-2">
+                  Challenge:
+                </h3>
+                <p className="text-gray-100 leading-relaxed">
+                  Kraken needed to scale its organic visibility across thousands
+                  of long-tail keyword searches like "BTC to USD" and "ETH to
+                  EUR," while ensuring pages remained technically sound and
+                  useful to users.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold text-blue-400 mb-2">
+                  Action:
+                </h3>
+                <ul className="text-gray-100 space-y-2 ml-4">
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Consulted on the SEO framework behind converter pages with
+                    real-time rates, charts, and educational modules
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Ensured pages followed SEO best practices (structured data,
+                    hreflang, canonicalization)
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Created templates optimized for performance and crawl
+                    efficiency
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-blue-400 mr-2">•</span>
+                    Developed automation pipelines to scale dynamic content
+                    without duplicate content issues
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold text-green-400 mb-2">
+                  Result:
+                </h3>
+                <div className="text-gray-100 space-y-2">
+                  <p className="flex items-start">
+                    <span className="text-green-400 mr-2">🌍</span>
+                    Captured{" "}
+                    <strong>significant long-tail search traffic</strong> across
+                    hundreds of international markets
+                  </p>
+                  <p className="flex items-start">
+                    <span className="text-green-400 mr-2">⚙️</span>
+                    Delivered a{" "}
+                    <strong>scalable technical SEO framework</strong> powering
+                    thousands of conversion pages with minimal manual upkeep
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Two Column Layout */}
           <div className="grid md:grid-cols-2 gap-8 mb-10">
             {/* Key Achievements Column */}
