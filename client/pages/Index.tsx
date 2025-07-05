@@ -152,7 +152,7 @@ export default function Index() {
                 className={`text-sm font-medium whitespace-nowrap transition-all duration-300 px-3 py-2 rounded-lg ${
                   activeSection === item.id
                     ? "border-b-2 pb-2"
-                    : "hover:bg-purple-900/20"
+                    : "hover:bg-purple-50"
                 }`}
                 style={{
                   color: activeSection === item.id ? "#8B5CF6" : "#374151",
