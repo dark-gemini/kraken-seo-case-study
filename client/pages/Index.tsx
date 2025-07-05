@@ -1107,7 +1107,7 @@ export default function Index() {
                       </a>
                     </li>
                     <li>
-                      ��{" "}
+                      •{" "}
                       <a
                         href="https://gracker.ai/seo-101/hreflang-implementation-guide"
                         className="hover:underline"
