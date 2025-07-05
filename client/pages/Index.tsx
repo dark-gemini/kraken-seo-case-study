@@ -127,8 +127,11 @@ export default function Index() {
 
       {/* Sticky Navigation */}
       <div
-        className="sticky top-0 z-50 bg-white shadow-sm border-b"
-        style={{ borderColor: "rgb(224, 224, 224)" }}
+        className="sticky top-0 z-50 shadow-lg border-b backdrop-blur-lg"
+        style={{
+          backgroundColor: "rgba(21, 24, 41, 0.95)",
+          borderColor: "#374151",
+        }}
       >
         <div className="max-w-6xl mx-auto px-5">
           <nav className="flex space-x-8 py-4 overflow-x-auto">
@@ -143,19 +146,18 @@ export default function Index() {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className={`text-sm font-medium whitespace-nowrap transition-colors ${
+                className={`text-sm font-medium whitespace-nowrap transition-all duration-300 px-3 py-2 rounded-lg ${
                   activeSection === item.id
                     ? "border-b-2 pb-2"
-                    : "hover:opacity-70"
+                    : "hover:bg-purple-900/20"
                 }`}
                 style={{
-                  color:
-                    activeSection === item.id
-                      ? "rgb(252, 141, 85)"
-                      : "rgb(30, 31, 37)",
+                  color: activeSection === item.id ? "#8B5CF6" : "#D1D5DB",
                   borderColor:
+                    activeSection === item.id ? "#8B5CF6" : "transparent",
+                  backgroundColor:
                     activeSection === item.id
-                      ? "rgb(252, 141, 85)"
+                      ? "rgba(139, 92, 246, 0.1)"
                       : "transparent",
                 }}
               >
