@@ -51,7 +51,7 @@ export default function Index() {
       >
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="text-2xl font-bold" style={{ color: "#1F2937" }}>
-            🐙 Kraken SEO Analysis
+            Quantum SEO
           </div>
           <nav className="hidden md:flex space-x-8">
             <a
