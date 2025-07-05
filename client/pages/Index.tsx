@@ -157,7 +157,7 @@ export default function Index() {
 
       {/* Main Content */}
       <main className="px-5 pb-12">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           {/* Article Content with White Background */}
           <article
             className="bg-white rounded-lg p-8 shadow-sm mb-8"
