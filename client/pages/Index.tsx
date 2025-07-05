@@ -303,7 +303,7 @@ export default function Index() {
                 className="text-3xl font-semibold mb-6"
                 style={{ color: "rgb(30, 31, 37)" }}
               >
-                2. Technical SEO Strategies Implemented
+                Technical SEO Strategies Implemented
               </h2>
 
               <div className="space-y-8">
