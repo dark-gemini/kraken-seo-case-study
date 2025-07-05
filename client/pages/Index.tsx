@@ -589,7 +589,7 @@ export default function Index() {
                         <li>
                           • UX teams for site structure and mobile experience
                         </li>
-                        <li>��� Growth marketing for campaign alignment</li>
+                        <li>• Growth marketing for campaign alignment</li>
                         <li>
                           • Product & engineering for technical implementation
                         </li>
@@ -1358,10 +1358,8 @@ export default function Index() {
           style={{ color: "#6B7280", borderColor: "#E5E7EB" }}
         >
           <div className="flex items-center justify-center space-x-2 mb-2">
-            <span className="text-2xl">🐙</span>
-            <em style={{ color: "#8B5CF6" }}>
-              "Release the Kraken of SEO Performance"
-            </em>
+            <span className="text-2xl"></span>
+            <em style={{ color: "#8B5CF6" }}>"Powered by Coreweaver Labs."</em>
           </div>
         </div>
       </footer>
