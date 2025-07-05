@@ -96,7 +96,7 @@ export default function Index() {
             className="inline-flex items-center space-x-3 mb-6 px-4 py-2 rounded-full"
             style={{ backgroundColor: "#F9FAFB", border: "1px solid #8B5CF6" }}
           >
-            <span className="text-2xl">🐙</span>
+            <span className="text-2xl"></span>
             <span className="text-sm font-medium" style={{ color: "#8B5CF6" }}>
               Kraken SEO Deep Dive
             </span>
