@@ -1277,13 +1277,13 @@ export default function Index() {
             >
               Case Studies
             </h3>
-            <ul className="space-y-2" style={{ color: "#9CA3AF" }}>
+            <ul className="space-y-2" style={{ color: "#6B7280" }}>
               <li>
                 <a
                   href="#"
                   className="transition-colors"
                   onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
-                  onMouseLeave={(e) => (e.target.style.color = "#9CA3AF")}
+                  onMouseLeave={(e) => (e.target.style.color = "#6B7280")}
                 >
                   Technical SEO Analysis
                 </a>
@@ -1293,7 +1293,7 @@ export default function Index() {
                   href="#"
                   className="transition-colors"
                   onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
-                  onMouseLeave={(e) => (e.target.style.color = "#9CA3AF")}
+                  onMouseLeave={(e) => (e.target.style.color = "#6B7280")}
                 >
                   Performance Optimization
                 </a>
@@ -1303,7 +1303,7 @@ export default function Index() {
                   href="#"
                   className="transition-colors"
                   onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
-                  onMouseLeave={(e) => (e.target.style.color = "#9CA3AF")}
+                  onMouseLeave={(e) => (e.target.style.color = "#6B7280")}
                 >
                   International SEO
                 </a>
@@ -1313,7 +1313,7 @@ export default function Index() {
                   href="#"
                   className="transition-colors"
                   onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
-                  onMouseLeave={(e) => (e.target.style.color = "#9CA3AF")}
+                  onMouseLeave={(e) => (e.target.style.color = "#6B7280")}
                 >
                   Enterprise Solutions
                 </a>
@@ -1324,11 +1324,11 @@ export default function Index() {
           <div>
             <h3
               className="text-lg font-semibold mb-4 pb-2 border-b-2 inline-block"
-              style={{ color: "#FFFFFF", borderColor: "#8B5CF6" }}
+              style={{ color: "#1F2937", borderColor: "#8B5CF6" }}
             >
               Let's Connect
             </h3>
-            <ul className="space-y-3" style={{ color: "#9CA3AF" }}>
+            <ul className="space-y-3" style={{ color: "#6B7280" }}>
               <li className="flex items-center">
                 <span className="mr-3 text-lg" style={{ color: "#8B5CF6" }}>
                   📧
@@ -1337,7 +1337,7 @@ export default function Index() {
                   href="/contact"
                   className="transition-colors"
                   onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
-                  onMouseLeave={(e) => (e.target.style.color = "#9CA3AF")}
+                  onMouseLeave={(e) => (e.target.style.color = "#6B7280")}
                 >
                   Get SEO Analysis
                 </a>
@@ -1350,7 +1350,7 @@ export default function Index() {
                   href="#"
                   className="transition-colors"
                   onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
-                  onMouseLeave={(e) => (e.target.style.color = "#9CA3AF")}
+                  onMouseLeave={(e) => (e.target.style.color = "#6B7280")}
                 >
                   LinkedIn Portfolio
                 </a>
@@ -1361,7 +1361,7 @@ export default function Index() {
 
         <div
           className="text-center mt-12 pt-8 border-t"
-          style={{ color: "#6B7280", borderColor: "#374151" }}
+          style={{ color: "#6B7280", borderColor: "#E5E7EB" }}
         >
           <div className="flex items-center justify-center space-x-2 mb-2">
             <span className="text-2xl">🐙</span>
