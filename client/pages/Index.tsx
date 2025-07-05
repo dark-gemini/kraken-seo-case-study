@@ -645,7 +645,7 @@ export default function Index() {
                     >
                       <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-emerald-25"></div>
                       <div className="relative z-10">
-                        <div className="text-4xl mb-3">📈</div>
+                        <div className="text-4xl mb-3"></div>
                         <div className="text-4xl font-bold mb-2 bg-gradient-to-r from-green-600 to-emerald-700 bg-clip-text text-transparent">
                           +85%
                         </div>
