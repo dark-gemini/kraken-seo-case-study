@@ -1250,59 +1250,69 @@ export default function Index() {
 
       {/* Footer */}
       <footer
-        className="py-12 px-5"
-        style={{ backgroundColor: "rgb(241, 245, 248)" }}
+        className="py-12 px-5 border-t"
+        style={{ backgroundColor: "#151829", borderColor: "#374151" }}
       >
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
           <div>
             <h3
-              className="text-lg font-semibold mb-4"
-              style={{
-                color: "rgb(30, 31, 37)",
-                borderBottom: "2px solid rgb(252, 141, 85)",
-                paddingBottom: "4px",
-                display: "inline-block",
-              }}
+              className="text-lg font-semibold mb-4 pb-2 border-b-2 inline-block"
+              style={{ color: "#FFFFFF", borderColor: "#8B5CF6" }}
             >
-              Address
+              🐙 Kraken SEO
             </h3>
-            <div style={{ color: "rgb(30, 31, 37)" }}>
-              <p>Rise, 41 Luke St</p>
-              <p>London EC2A 4DP</p>
+            <div style={{ color: "#9CA3AF" }}>
+              <p>Advanced Technical SEO</p>
+              <p>Crypto Exchange Optimization</p>
             </div>
           </div>
 
           <div>
             <h3
-              className="text-lg font-semibold mb-4"
-              style={{
-                color: "rgb(30, 31, 37)",
-                borderBottom: "2px solid rgb(252, 141, 85)",
-                paddingBottom: "4px",
-                display: "inline-block",
-              }}
+              className="text-lg font-semibold mb-4 pb-2 border-b-2 inline-block"
+              style={{ color: "#FFFFFF", borderColor: "#8B5CF6" }}
             >
-              Quick Links
+              Case Studies
             </h3>
-            <ul className="space-y-2" style={{ color: "rgb(30, 31, 37)" }}>
+            <ul className="space-y-2" style={{ color: "#9CA3AF" }}>
               <li>
-                <a href="#" className="hover:text-orange-500">
-                  See Our Results
+                <a
+                  href="#"
+                  className="transition-colors"
+                  onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
+                  onMouseLeave={(e) => (e.target.style.color = "#9CA3AF")}
+                >
+                  Technical SEO Analysis
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-orange-500">
-                  Guides
+                <a
+                  href="#"
+                  className="transition-colors"
+                  onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
+                  onMouseLeave={(e) => (e.target.style.color = "#9CA3AF")}
+                >
+                  Performance Optimization
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-orange-500">
-                  About Us
+                <a
+                  href="#"
+                  className="transition-colors"
+                  onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
+                  onMouseLeave={(e) => (e.target.style.color = "#9CA3AF")}
+                >
+                  International SEO
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-orange-500">
-                  SEO Video Audit
+                <a
+                  href="#"
+                  className="transition-colors"
+                  onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
+                  onMouseLeave={(e) => (e.target.style.color = "#9CA3AF")}
+                >
+                  Enterprise Solutions
                 </a>
               </li>
             </ul>
@@ -1310,31 +1320,36 @@ export default function Index() {
 
           <div>
             <h3
-              className="text-lg font-semibold mb-4"
-              style={{
-                color: "rgb(30, 31, 37)",
-                borderBottom: "2px solid rgb(252, 141, 85)",
-                paddingBottom: "4px",
-                display: "inline-block",
-              }}
+              className="text-lg font-semibold mb-4 pb-2 border-b-2 inline-block"
+              style={{ color: "#FFFFFF", borderColor: "#8B5CF6" }}
             >
               Let's Connect
             </h3>
-            <ul className="space-y-2" style={{ color: "rgb(30, 31, 37)" }}>
+            <ul className="space-y-3" style={{ color: "#9CA3AF" }}>
               <li className="flex items-center">
-                <span className="mr-2" style={{ color: "rgb(124, 198, 141)" }}>
+                <span className="mr-3 text-lg" style={{ color: "#8B5CF6" }}>
                   📧
                 </span>
-                <a href="/contact" className="hover:text-orange-500">
-                  Contact Us
+                <a
+                  href="/contact"
+                  className="transition-colors"
+                  onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
+                  onMouseLeave={(e) => (e.target.style.color = "#9CA3AF")}
+                >
+                  Get SEO Analysis
                 </a>
               </li>
               <li className="flex items-center">
-                <span className="mr-2" style={{ color: "rgb(124, 198, 141)" }}>
-                  📅
+                <span className="mr-3 text-lg" style={{ color: "#8B5CF6" }}>
+                  💼
                 </span>
-                <a href="#" className="hover:text-orange-500">
-                  Book a Chemistry Call
+                <a
+                  href="#"
+                  className="transition-colors"
+                  onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
+                  onMouseLeave={(e) => (e.target.style.color = "#9CA3AF")}
+                >
+                  LinkedIn Portfolio
                 </a>
               </li>
             </ul>
@@ -1342,10 +1357,15 @@ export default function Index() {
         </div>
 
         <div
-          className="text-center mt-8 pt-4"
-          style={{ color: "rgb(193, 193, 193)" }}
+          className="text-center mt-12 pt-8 border-t"
+          style={{ color: "#6B7280", borderColor: "#374151" }}
         >
-          <em>"Don't be evil"</em>
+          <div className="flex items-center justify-center space-x-2 mb-2">
+            <span className="text-2xl">🐙</span>
+            <em style={{ color: "#8B5CF6" }}>
+              "Release the Kraken of SEO Performance"
+            </em>
+          </div>
         </div>
       </footer>
     </div>
