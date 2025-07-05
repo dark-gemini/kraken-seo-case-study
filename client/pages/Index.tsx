@@ -186,15 +186,9 @@ export default function Index() {
           >
             {/* 1. Introduction */}
             <section id="introduction" className="mb-12 scroll-mt-24">
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-purple-500 to-violet-600 flex items-center justify-center">
-                  <span className="text-white text-sm font-bold">1</span>
-                </div>
-                <h2 className="text-3xl font-semibold bg-gradient-to-r from-gray-900 to-purple-700 bg-clip-text text-transparent">
-                  Introduction: Understanding Kraken Exchange and its SEO
-                  Landscape
-                </h2>
-              </div>
+              <h2 className="text-3xl font-semibold bg-gradient-to-r from-gray-900 to-purple-700 bg-clip-text text-transparent mb-6 pl-3">
+                Understanding Kraken Exchange
+              </h2>
 
               <div className="space-y-6">
                 <div
@@ -1364,7 +1358,7 @@ export default function Index() {
           style={{ color: "#6B7280", borderColor: "#E5E7EB" }}
         >
           <div className="flex items-center justify-center space-x-2 mb-2">
-            <span className="text-2xl">🐙</span>
+            <span className="text-2xl">���</span>
             <em style={{ color: "#8B5CF6" }}>
               "Release the Kraken of SEO Performance"
             </em>
