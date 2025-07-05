@@ -136,40 +136,53 @@ export default function Index() {
                         className="mr-3 mt-1 w-2 h-2 rounded-full flex-shrink-0"
                         style={{ backgroundColor: "rgb(252, 141, 85)" }}
                       ></span>
-                      Managing complex website architecture across multiple
-                      domains and subdomains
+                      <strong>Managing complex website architecture:</strong>{" "}
+                      With thousands of trading pairs, market data pages,
+                      educational resources, and legal disclaimers, ensuring
+                      optimal crawl path and logical hierarchy is crucial for
+                      search engine understanding
                     </li>
                     <li className="flex items-start">
                       <span
                         className="mr-3 mt-1 w-2 h-2 rounded-full flex-shrink-0"
                         style={{ backgroundColor: "rgb(252, 141, 85)" }}
                       ></span>
-                      Ensuring optimal site speed and performance for a global
-                      user base accessing real-time trading data
+                      <strong>
+                        Ensuring optimal site speed and performance:
+                      </strong>{" "}
+                      High transaction volumes and real-time market data demand
+                      exceptional site speed across different geographical
+                      regions with varying internet speeds
                     </li>
                     <li className="flex items-start">
                       <span
                         className="mr-3 mt-1 w-2 h-2 rounded-full flex-shrink-0"
                         style={{ backgroundColor: "rgb(252, 141, 85)" }}
                       ></span>
-                      Implementing effective structured data for dynamic content
-                      types including trading pairs and market data
+                      <strong>Implementing effective structured data:</strong>{" "}
+                      From cryptocurrency prices and market caps to exchange
+                      reviews and FAQ sections, correctly implementing schema
+                      markup is vital for rich snippets
                     </li>
                     <li className="flex items-start">
                       <span
                         className="mr-3 mt-1 w-2 h-2 rounded-full flex-shrink-0"
                         style={{ backgroundColor: "rgb(252, 141, 85)" }}
                       ></span>
-                      Addressing technical debt arising from frequent platform
-                      updates and security requirements
+                      <strong>Addressing technical debt:</strong> The rapidly
+                      evolving crypto market necessitates frequent platform
+                      updates that can introduce broken links, duplicate
+                      content, or accidental no-indexing
                     </li>
                     <li className="flex items-start">
                       <span
                         className="mr-3 mt-1 w-2 h-2 rounded-full flex-shrink-0"
                         style={{ backgroundColor: "rgb(252, 141, 85)" }}
                       ></span>
-                      Maintaining mobile responsiveness across diverse trading
-                      interfaces and educational content
+                      <strong>Maintaining mobile responsiveness:</strong> A
+                      significant portion of crypto trading occurs on mobile
+                      devices, requiring seamless experience across smartphones
+                      and tablets for mobile-first indexing
                     </li>
                   </ul>
                 </div>
