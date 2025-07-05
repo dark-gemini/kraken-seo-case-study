@@ -199,10 +199,8 @@ export default function Index() {
                   }}
                 >
                   <h3 className="text-xl font-semibold mb-3 flex items-center space-x-2">
-                    <span className="text-2xl">🏢</span>
-                    <span style={{ color: "#8B5CF6" }}>
-                      Client/Company Overview
-                    </span>
+                    <span className="text-2xl"></span>
+                    <span style={{ color: "#8B5CF6" }}>Company Overview</span>
                   </h3>
                   <p
                     className="leading-relaxed mb-4"
@@ -1358,7 +1356,7 @@ export default function Index() {
           style={{ color: "#6B7280", borderColor: "#E5E7EB" }}
         >
           <div className="flex items-center justify-center space-x-2 mb-2">
-            <span className="text-2xl">���</span>
+            <span className="text-2xl">🐙</span>
             <em style={{ color: "#8B5CF6" }}>
               "Release the Kraken of SEO Performance"
             </em>
