@@ -99,13 +99,17 @@ export default function Index() {
                     className="leading-relaxed mb-4"
                     style={{ color: "rgb(30, 31, 37)", lineHeight: "28.8px" }}
                   >
-                    Kraken Exchange stands as one of the world's leading
-                    cryptocurrency trading platforms, serving millions of users
-                    globally with advanced trading features, institutional-grade
-                    security, and support for over 200 cryptocurrencies. Founded
-                    in 2011, Kraken has established itself as a trusted platform
-                    for both retail and institutional clients seeking reliable
-                    cryptocurrency exchange services.
+                    Kraken Exchange stands as a global leader in the volatile
+                    yet burgeoning cryptocurrency market. Established in 2011,
+                    it has grown to become one of the most trusted and secure
+                    platforms for buying, selling, and trading a vast array of
+                    digital assets. Kraken caters to a diverse audience, from
+                    novice investors to seasoned institutional traders, offering
+                    a comprehensive suite of services including spot trading,
+                    margin trading, futures, and staking. Its commitment to
+                    security, regulatory compliance, and a wide selection of
+                    cryptocurrencies makes it a significant player in the
+                    digital finance ecosystem.
                   </p>
                 </div>
 
