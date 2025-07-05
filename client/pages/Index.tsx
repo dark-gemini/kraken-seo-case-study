@@ -515,7 +515,10 @@ export default function Index() {
                 </div>
 
                 {/* Execution Section */}
-                <div className="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                <div
+                  id="execution"
+                  className="bg-blue-50 rounded-lg p-6 border border-blue-200 scroll-mt-24"
+                >
                   <h4
                     className="text-lg font-semibold mb-4"
                     style={{ color: "rgb(30, 31, 37)" }}
