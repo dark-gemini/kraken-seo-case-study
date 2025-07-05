@@ -115,9 +115,9 @@ export default function Index() {
           <div className="flex items-center justify-center space-x-6 text-sm">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 rounded-full bg-gradient-to-r from-purple-500 to-violet-600 flex items-center justify-center">
-                <span className="text-white text-xs font-bold">JF</span>
+                <span className="text-white text-xs font-bold">MN</span>
               </div>
-              <span style={{ color: "#374151" }}>Joe Firth</span>
+              <span style={{ color: "#374151" }}>Mason Nguyen</span>
             </div>
             <div
               className="w-1 h-1 rounded-full"
