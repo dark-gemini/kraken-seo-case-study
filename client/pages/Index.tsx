@@ -1227,7 +1227,7 @@ export default function Index() {
               style={{ color: "rgb(30, 31, 37)" }}
             >
               Unlock your website's full potential! Get in touch and start your
-              SEO journey today.
+              journey today.
             </p>
             <Button
               className="font-semibold px-8 py-3 rounded border-0 hover:opacity-90 transition-opacity"
