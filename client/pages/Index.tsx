@@ -117,13 +117,13 @@ export default function Index() {
               <div className="w-8 h-8 rounded-full bg-gradient-to-r from-purple-500 to-violet-600 flex items-center justify-center">
                 <span className="text-white text-xs font-bold">JF</span>
               </div>
-              <span style={{ color: "#D1D5DB" }}>Joe Firth</span>
+              <span style={{ color: "#374151" }}>Joe Firth</span>
             </div>
             <div
               className="w-1 h-1 rounded-full"
-              style={{ backgroundColor: "#6B7280" }}
+              style={{ backgroundColor: "#9CA3AF" }}
             ></div>
-            <span style={{ color: "#9CA3AF" }}>July 4, 2025</span>
+            <span style={{ color: "#6B7280" }}>July 4, 2025</span>
           </div>
         </div>
       </section>
