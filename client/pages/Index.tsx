@@ -94,22 +94,22 @@ export default function Index() {
         <div className="max-w-4xl mx-auto relative z-10">
           <div
             className="inline-flex items-center space-x-3 mb-6 px-4 py-2 rounded-full"
-            style={{ backgroundColor: "#1E1B3A", border: "1px solid #8B5CF6" }}
+            style={{ backgroundColor: "#F9FAFB", border: "1px solid #8B5CF6" }}
           >
             <span className="text-2xl">🐙</span>
             <span className="text-sm font-medium" style={{ color: "#8B5CF6" }}>
               Kraken SEO Deep Dive
             </span>
           </div>
-          <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-violet-300 bg-clip-text text-transparent">
+          <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-purple-800 to-violet-700 bg-clip-text text-transparent">
             Technical SEO Case Study
           </h1>
           <p
             className="text-xl mb-8 leading-relaxed"
-            style={{ color: "#D1D5DB" }}
+            style={{ color: "#4B5563" }}
           >
             How I helped a global crypto exchange boost organic traffic by{" "}
-            <span className="text-purple-400 font-bold">85%</span> through
+            <span className="text-purple-600 font-bold">85%</span> through
             comprehensive technical SEO optimization
           </p>
           <div className="flex items-center justify-center space-x-6 text-sm">
