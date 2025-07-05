@@ -45,33 +45,36 @@ export default function Index() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#0B0D17" }}>
       {/* Header Section */}
-      <header className="py-6 px-5">
+      <header className="py-6 px-5" style={{ backgroundColor: "#151829" }}>
         <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <div
-            className="text-2xl font-bold"
-            style={{ color: "rgb(30, 31, 37)" }}
-          >
-            Precision Growth
+          <div className="text-2xl font-bold" style={{ color: "#FFFFFF" }}>
+            🐙 Kraken SEO Analysis
           </div>
           <nav className="hidden md:flex space-x-8">
             <a
               href="#"
-              className="text-lg font-medium hover:text-orange-500"
-              style={{ color: "rgb(30, 31, 37)" }}
+              className="text-lg font-medium transition-colors"
+              style={{ color: "#A1A1AA" }}
+              onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
+              onMouseLeave={(e) => (e.target.style.color = "#A1A1AA")}
             >
               Resources
             </a>
             <a
               href="#"
-              className="text-lg font-medium hover:text-orange-500"
-              style={{ color: "rgb(30, 31, 37)" }}
+              className="text-lg font-medium transition-colors"
+              style={{ color: "#A1A1AA" }}
+              onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
+              onMouseLeave={(e) => (e.target.style.color = "#A1A1AA")}
             >
               About
             </a>
             <a
               href="/contact"
-              className="text-lg font-medium hover:text-orange-500"
-              style={{ color: "rgb(30, 31, 37)" }}
+              className="text-lg font-medium transition-colors"
+              style={{ color: "#A1A1AA" }}
+              onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
+              onMouseLeave={(e) => (e.target.style.color = "#A1A1AA")}
             >
               Contact Us
             </a>
