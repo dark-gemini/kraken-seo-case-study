@@ -1220,7 +1220,7 @@ export default function Index() {
               className="text-3xl font-semibold mb-4"
               style={{ color: "rgb(30, 31, 37)" }}
             >
-              Let's Talk SEO
+              Let's Talk Web3
             </h2>
             <p
               className="text-lg mb-6 leading-relaxed"
