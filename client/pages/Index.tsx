@@ -589,7 +589,7 @@ export default function Index() {
                         <li>
                           • UX teams for site structure and mobile experience
                         </li>
-                        <li>• Growth marketing for campaign alignment</li>
+                        <li>��� Growth marketing for campaign alignment</li>
                         <li>
                           • Product & engineering for technical implementation
                         </li>
@@ -1336,9 +1336,10 @@ export default function Index() {
                 </a>
               </li>
               <li className="flex items-center">
-                <span className="mr-3 text-lg" style={{ color: "#8B5CF6" }}>
-                  💼
-                </span>
+                <span
+                  className="mr-3 text-lg"
+                  style={{ color: "#8B5CF6" }}
+                ></span>
                 <a
                   href="#"
                   className="transition-colors"
