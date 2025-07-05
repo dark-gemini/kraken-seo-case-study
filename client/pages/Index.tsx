@@ -225,24 +225,25 @@ export default function Index() {
                   </p>
                 </div>
 
-                <div>
-                  <h3
-                    className="text-xl font-semibold mb-3"
-                    style={{ color: "rgb(252, 141, 85)" }}
-                  >
-                    Challenges
+                <div
+                  className="p-6 rounded-xl"
+                  style={{
+                    backgroundColor: "#1E1B3A",
+                    border: "1px solid #374151",
+                  }}
+                >
+                  <h3 className="text-xl font-semibold mb-3 flex items-center space-x-2">
+                    <span className="text-2xl">⚠️</span>
+                    <span style={{ color: "#F59E0B" }}>Challenges</span>
                   </h3>
                   <p
                     className="leading-relaxed mb-4"
-                    style={{ color: "rgb(30, 31, 37)", lineHeight: "28.8px" }}
+                    style={{ color: "#D1D5DB", lineHeight: "28.8px" }}
                   >
                     As a large-scale, international crypto exchange, Kraken
                     faced several critical technical SEO challenges:
                   </p>
-                  <ul
-                    className="space-y-3"
-                    style={{ color: "rgb(30, 31, 37)" }}
-                  >
+                  <ul className="space-y-4" style={{ color: "#D1D5DB" }}>
                     <li className="flex items-start">
                       <span
                         className="mr-3 mt-1 w-2 h-2 rounded-full flex-shrink-0"
