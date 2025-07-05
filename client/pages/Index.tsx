@@ -1254,17 +1254,17 @@ export default function Index() {
       {/* Footer */}
       <footer
         className="py-12 px-5 border-t"
-        style={{ backgroundColor: "#151829", borderColor: "#374151" }}
+        style={{ backgroundColor: "#F9FAFB", borderColor: "#E5E7EB" }}
       >
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
           <div>
             <h3
               className="text-lg font-semibold mb-4 pb-2 border-b-2 inline-block"
-              style={{ color: "#FFFFFF", borderColor: "#8B5CF6" }}
+              style={{ color: "#1F2937", borderColor: "#8B5CF6" }}
             >
               🐙 Kraken SEO
             </h3>
-            <div style={{ color: "#9CA3AF" }}>
+            <div style={{ color: "#6B7280" }}>
               <p>Advanced Technical SEO</p>
               <p>Crypto Exchange Optimization</p>
             </div>
@@ -1273,7 +1273,7 @@ export default function Index() {
           <div>
             <h3
               className="text-lg font-semibold mb-4 pb-2 border-b-2 inline-block"
-              style={{ color: "#FFFFFF", borderColor: "#8B5CF6" }}
+              style={{ color: "#1F2937", borderColor: "#8B5CF6" }}
             >
               Case Studies
             </h3>
