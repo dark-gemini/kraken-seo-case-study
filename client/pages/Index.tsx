@@ -83,7 +83,7 @@ export default function Index() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-12 px-5 text-center">
+      <section id="hero" className="py-12 px-5 text-center">
         <div className="max-w-4xl mx-auto">
           <h1
             className="text-5xl font-bold mb-4"
@@ -92,8 +92,12 @@ export default function Index() {
               fontFamily: "Montserrat, Helvetica, Arial, sans-serif",
             }}
           >
-            🚀 Kraken SEO Case Study
+            Technical SEO Case Study: Kraken
           </h1>
+          <p className="text-xl mb-6" style={{ color: "rgb(30, 31, 37)" }}>
+            How I helped a global crypto exchange boost organic traffic by 85%
+            through comprehensive technical SEO optimization
+          </p>
           <div className="text-lg mb-2">
             <span style={{ color: "rgb(30, 31, 37)" }}>Written By </span>
             <a
@@ -109,6 +113,47 @@ export default function Index() {
           </div>
         </div>
       </section>
+
+      {/* Sticky Navigation */}
+      <div
+        className="sticky top-0 z-50 bg-white shadow-sm border-b"
+        style={{ borderColor: "rgb(224, 224, 224)" }}
+      >
+        <div className="max-w-6xl mx-auto px-5">
+          <nav className="flex space-x-8 py-4 overflow-x-auto">
+            {[
+              { id: "hero", label: "Overview" },
+              { id: "introduction", label: "Introduction" },
+              { id: "strategy", label: "Strategy" },
+              { id: "execution", label: "Execution" },
+              { id: "results", label: "Results" },
+              { id: "conclusion", label: "Conclusion" },
+            ].map((item) => (
+              <button
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
+                className={`text-sm font-medium whitespace-nowrap transition-colors ${
+                  activeSection === item.id
+                    ? "border-b-2 pb-2"
+                    : "hover:opacity-70"
+                }`}
+                style={{
+                  color:
+                    activeSection === item.id
+                      ? "rgb(252, 141, 85)"
+                      : "rgb(30, 31, 37)",
+                  borderColor:
+                    activeSection === item.id
+                      ? "rgb(252, 141, 85)"
+                      : "transparent",
+                }}
+              >
+                {item.label}
+              </button>
+            ))}
+          </nav>
+        </div>
+      </div>
 
       {/* Main Content */}
       <main className="px-5 pb-12">
