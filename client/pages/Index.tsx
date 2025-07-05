@@ -132,8 +132,8 @@ export default function Index() {
       <div
         className="sticky top-0 z-50 shadow-lg border-b backdrop-blur-lg"
         style={{
-          backgroundColor: "rgba(21, 24, 41, 0.95)",
-          borderColor: "#374151",
+          backgroundColor: "rgba(255, 255, 255, 0.95)",
+          borderColor: "#E5E7EB",
         }}
       >
         <div className="max-w-6xl mx-auto px-5">
