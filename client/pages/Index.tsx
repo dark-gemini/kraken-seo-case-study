@@ -832,21 +832,138 @@ export default function Index() {
                     enterprise-level technical SEO implementation.
                   </em>
                 </p>
-                <ul
-                  className="text-sm space-y-2"
-                  style={{ color: "rgb(30, 31, 37)" }}
-                >
-                  <li>• Google Search Central - Technical SEO Guidelines</li>
-                  <li>• Ahrefs - Enterprise SEO Case Studies</li>
-                  <li>
-                    • Search Engine Journal - International SEO Best Practices
-                  </li>
-                  <li>• Moz - Technical SEO Implementation Guides</li>
-                  <li>
-                    • Core Web Vitals - Google PageSpeed Insights Documentation
-                  </li>
-                  <li>• Schema.org - Structured Data Implementation</li>
-                </ul>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <ul
+                    className="text-sm space-y-1"
+                    style={{ color: "rgb(30, 31, 37)" }}
+                  >
+                    <li>
+                      •{" "}
+                      <a
+                        href="https://ahrefs.com/blog/"
+                        className="hover:underline"
+                        style={{ color: "rgb(252, 141, 85)" }}
+                      >
+                        Ahrefs Blog
+                      </a>
+                    </li>
+                    <li>
+                      •{" "}
+                      <a
+                        href="https://www.bitdegree.org/top-crypto-exchanges/kraken"
+                        className="hover:underline"
+                        style={{ color: "rgb(252, 141, 85)" }}
+                      >
+                        BitDegree - Kraken Trading Volume & Data
+                      </a>
+                    </li>
+                    <li>
+                      •{" "}
+                      <a
+                        href="https://support.google.com/webmasters/"
+                        className="hover:underline"
+                        style={{ color: "rgb(252, 141, 85)" }}
+                      >
+                        Google Search Console Help
+                      </a>
+                    </li>
+                    <li>
+                      •{" "}
+                      <a
+                        href="https://gracker.ai/seo-101/hreflang-implementation-guide"
+                        className="hover:underline"
+                        style={{ color: "rgb(252, 141, 85)" }}
+                      >
+                        Hreflang Implementation Guide
+                      </a>
+                    </li>
+                    <li>
+                      •{" "}
+                      <a
+                        href="https://blog.kraken.com/"
+                        className="hover:underline"
+                        style={{ color: "rgb(252, 141, 85)" }}
+                      >
+                        Kraken Blog
+                      </a>
+                    </li>
+                    <li>
+                      •{" "}
+                      <a
+                        href="https://www.kraken.com/features/security"
+                        className="hover:underline"
+                        style={{ color: "rgb(252, 141, 85)" }}
+                      >
+                        Kraken Security Features
+                      </a>
+                    </li>
+                  </ul>
+                  <ul
+                    className="text-sm space-y-1"
+                    style={{ color: "rgb(30, 31, 37)" }}
+                  >
+                    <li>
+                      •{" "}
+                      <a
+                        href="https://krakendesign.co.uk/insights/what-is-technical-seo-and-why-do-you-need-it-for-your-website/"
+                        className="hover:underline"
+                        style={{ color: "rgb(252, 141, 85)" }}
+                      >
+                        Technical SEO Guide - Kraken Design
+                      </a>
+                    </li>
+                    <li>
+                      •{" "}
+                      <a
+                        href="https://krakenbox.com/"
+                        className="hover:underline"
+                        style={{ color: "rgb(252, 141, 85)" }}
+                      >
+                        Kraken Box SEO Tools
+                      </a>
+                    </li>
+                    <li>
+                      •{" "}
+                      <a
+                        href="https://www.semrush.com/website/kraken.com/overview/"
+                        className="hover:underline"
+                        style={{ color: "rgb(252, 141, 85)" }}
+                      >
+                        Semrush - kraken.com Analytics
+                      </a>
+                    </li>
+                    <li>
+                      •{" "}
+                      <a
+                        href="https://schema.org/"
+                        className="hover:underline"
+                        style={{ color: "rgb(252, 141, 85)" }}
+                      >
+                        Schema.org
+                      </a>
+                    </li>
+                    <li>
+                      •{" "}
+                      <a
+                        href="https://writesonic.com/blog/seo-automation-tools"
+                        className="hover:underline"
+                        style={{ color: "rgb(252, 141, 85)" }}
+                      >
+                        SEO Automation Tools Guide
+                      </a>
+                    </li>
+                    <li>
+                      •{" "}
+                      <a
+                        href="https://store.shopware.com/en/pacma68616937904m/kraken.io-image-optimizer.html"
+                        className="hover:underline"
+                        style={{ color: "rgb(252, 141, 85)" }}
+                      >
+                        Kraken.io Image Optimizer
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </section>
           </article>
