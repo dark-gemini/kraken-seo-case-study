@@ -933,7 +933,7 @@ export default function Index() {
                 className="text-3xl font-semibold mb-6"
                 style={{ color: "rgb(30, 31, 37)" }}
               >
-                4. Conclusion: Kraken's Technical SEO Success
+                Kraken's Technical SEO Success
               </h2>
 
               <div className="space-y-6">
