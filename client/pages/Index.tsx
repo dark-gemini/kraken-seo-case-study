@@ -210,11 +210,12 @@ export default function Index() {
                     className="leading-relaxed"
                     style={{ color: "rgb(30, 31, 37)", lineHeight: "28.8px" }}
                   >
-                    "Optimizing Kraken's site speed, structured data
-                    implementation, and scalable content architecture will
-                    significantly improve organic search visibility, user
-                    engagement, and drive sustainable growth in non-branded
-                    traffic across international markets."
+                    "Optimizing Kraken's site speed, comprehensive structured
+                    data implementation, and robust crawling/indexing management
+                    will significantly improve its organic search visibility for
+                    informational and transactional cryptocurrency queries,
+                    leading to increased non-branded organic traffic and user
+                    engagement."
                   </p>
                 </div>
 
@@ -742,7 +743,7 @@ export default function Index() {
                   className="text-sm space-y-2"
                   style={{ color: "rgb(30, 31, 37)" }}
                 >
-                  <li>• Google Search Central - Technical SEO Guidelines</li>
+                  <li>��� Google Search Central - Technical SEO Guidelines</li>
                   <li>• Ahrefs - Enterprise SEO Case Studies</li>
                   <li>
                     • Search Engine Journal - International SEO Best Practices
