@@ -283,32 +283,43 @@ export default function Index() {
                         className="mr-3 mt-1 w-2 h-2 rounded-full flex-shrink-0"
                         style={{ backgroundColor: "rgb(124, 198, 141)" }}
                       ></span>
-                      Developed comprehensive schema markup for trading pairs,
-                      market data, and financial instruments
+                      Implemented{" "}
+                      <code className="bg-gray-200 px-1 rounded">Currency</code>
+                      ,{" "}
+                      <code className="bg-gray-200 px-1 rounded">Product</code>,
+                      and{" "}
+                      <code className="bg-gray-200 px-1 rounded">
+                        FinancialProduct
+                      </code>{" "}
+                      schema for trading pairs and market data
                     </li>
                     <li className="flex items-start">
                       <span
                         className="mr-3 mt-1 w-2 h-2 rounded-full flex-shrink-0"
                         style={{ backgroundColor: "rgb(124, 198, 141)" }}
                       ></span>
-                      Implemented FAQ schema for educational content to capture
-                      featured snippets
+                      Deployed{" "}
+                      <code className="bg-gray-200 px-1 rounded">FAQPage</code>{" "}
+                      schema for educational content to capture featured
+                      snippets
                     </li>
                     <li className="flex items-start">
                       <span
                         className="mr-3 mt-1 w-2 h-2 rounded-full flex-shrink-0"
                         style={{ backgroundColor: "rgb(124, 198, 141)" }}
                       ></span>
-                      Created Organization schema to enhance brand presence in
-                      search results
+                      Enhanced Organization schema with security certifications
+                      (ISO/IEC 27001:2013, SOC 2) for trust signals
                     </li>
                     <li className="flex items-start">
                       <span
                         className="mr-3 mt-1 w-2 h-2 rounded-full flex-shrink-0"
                         style={{ backgroundColor: "rgb(124, 198, 141)" }}
                       ></span>
-                      Established review and rating schema for user testimonials
-                      and platform ratings
+                      Established{" "}
+                      <code className="bg-gray-200 px-1 rounded">Review</code>{" "}
+                      schema for user testimonials and platform ratings to
+                      improve rich snippet visibility
                     </li>
                   </ul>
                 </div>
@@ -743,7 +754,7 @@ export default function Index() {
                   className="text-sm space-y-2"
                   style={{ color: "rgb(30, 31, 37)" }}
                 >
-                  <li>��� Google Search Central - Technical SEO Guidelines</li>
+                  <li>• Google Search Central - Technical SEO Guidelines</li>
                   <li>• Ahrefs - Enterprise SEO Case Studies</li>
                   <li>
                     • Search Engine Journal - International SEO Best Practices
