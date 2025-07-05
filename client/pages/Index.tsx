@@ -171,10 +171,15 @@ export default function Index() {
       {/* Main Content */}
       <main className="px-5 pb-12">
         <div className="max-w-5xl mx-auto">
-          {/* Article Content with White Background */}
+          {/* Article Content with Dark Theme */}
           <article
-            className="bg-white rounded-lg p-8 shadow-sm mb-8"
-            style={{ fontFamily: "Montserrat, Helvetica, Arial, sans-serif" }}
+            className="rounded-xl p-8 shadow-2xl mb-8 border"
+            style={{
+              backgroundColor: "#151829",
+              fontFamily: "Inter, system-ui, sans-serif",
+              borderColor: "#374151",
+              boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.5)",
+            }}
           >
             {/* 1. Introduction */}
             <section id="introduction" className="mb-12 scroll-mt-24">
