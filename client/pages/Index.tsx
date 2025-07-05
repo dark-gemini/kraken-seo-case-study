@@ -174,14 +174,14 @@ export default function Index() {
       {/* Main Content */}
       <main className="px-5 pb-12">
         <div className="max-w-5xl mx-auto">
-          {/* Article Content with Dark Theme */}
+          {/* Article Content with Light Theme */}
           <article
-            className="rounded-xl p-8 shadow-2xl mb-8 border"
+            className="rounded-xl p-8 shadow-xl mb-8 border"
             style={{
-              backgroundColor: "#151829",
+              backgroundColor: "#FFFFFF",
               fontFamily: "Inter, system-ui, sans-serif",
-              borderColor: "#374151",
-              boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.5)",
+              borderColor: "#E5E7EB",
+              boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.1)",
             }}
           >
             {/* 1. Introduction */}
