@@ -641,25 +641,34 @@ export default function Index() {
 
                   {/* Visual KPI Cards */}
                   <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-                    <div className="bg-white rounded-lg p-6 shadow-md border border-gray-200 text-center">
-                      <div className="text-3xl mb-2">📈</div>
-                      <div
-                        className="text-3xl font-bold mb-2"
-                        style={{ color: "rgb(124, 198, 141)" }}
-                      >
-                        +85%
-                      </div>
-                      <div
-                        className="text-sm font-medium"
-                        style={{ color: "rgb(30, 31, 37)" }}
-                      >
-                        Organic Traffic Growth
-                      </div>
-                      <div className="w-full bg-gray-200 rounded-full h-2 mt-3">
+                    <div
+                      className="rounded-xl p-6 text-center border relative overflow-hidden group hover:scale-105 transition-transform duration-300"
+                      style={{
+                        backgroundColor: "#1E1B3A",
+                        borderColor: "#374151",
+                      }}
+                    >
+                      <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-emerald-600/5"></div>
+                      <div className="relative z-10">
+                        <div className="text-4xl mb-3">📈</div>
+                        <div className="text-4xl font-bold mb-2 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
+                          +85%
+                        </div>
                         <div
-                          className="bg-green-500 h-2 rounded-full"
-                          style={{ width: "85%" }}
-                        ></div>
+                          className="text-sm font-medium"
+                          style={{ color: "#D1D5DB" }}
+                        >
+                          Organic Traffic Growth
+                        </div>
+                        <div
+                          className="w-full rounded-full h-3 mt-4"
+                          style={{ backgroundColor: "#374151" }}
+                        >
+                          <div
+                            className="bg-gradient-to-r from-green-500 to-emerald-600 h-3 rounded-full shadow-lg"
+                            style={{ width: "85%" }}
+                          ></div>
+                        </div>
                       </div>
                     </div>
 
