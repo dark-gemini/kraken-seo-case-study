@@ -183,25 +183,33 @@ export default function Index() {
           >
             {/* 1. Introduction */}
             <section id="introduction" className="mb-12 scroll-mt-24">
-              <h2
-                className="text-3xl font-semibold mb-6"
-                style={{ color: "rgb(30, 31, 37)" }}
-              >
-                1. Introduction: Understanding Kraken Exchange and its SEO
-                Landscape
-              </h2>
+              <div className="flex items-center space-x-3 mb-6">
+                <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-purple-500 to-violet-600 flex items-center justify-center">
+                  <span className="text-white text-sm font-bold">1</span>
+                </div>
+                <h2 className="text-3xl font-semibold bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
+                  Introduction: Understanding Kraken Exchange and its SEO
+                  Landscape
+                </h2>
+              </div>
 
               <div className="space-y-6">
-                <div>
-                  <h3
-                    className="text-xl font-semibold mb-3"
-                    style={{ color: "rgb(252, 141, 85)" }}
-                  >
-                    Client/Company Overview
+                <div
+                  className="p-6 rounded-xl"
+                  style={{
+                    backgroundColor: "#1E1B3A",
+                    border: "1px solid #374151",
+                  }}
+                >
+                  <h3 className="text-xl font-semibold mb-3 flex items-center space-x-2">
+                    <span className="text-2xl">🏢</span>
+                    <span style={{ color: "#8B5CF6" }}>
+                      Client/Company Overview
+                    </span>
                   </h3>
                   <p
                     className="leading-relaxed mb-4"
-                    style={{ color: "rgb(30, 31, 37)", lineHeight: "28.8px" }}
+                    style={{ color: "#D1D5DB", lineHeight: "28.8px" }}
                   >
                     Kraken Exchange stands as a global leader in the volatile
                     yet burgeoning cryptocurrency market. Established in 2011,
