@@ -43,7 +43,7 @@ export default function Index() {
   };
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: "#0B0D17" }}>
+    <div className="min-h-screen" style={{ backgroundColor: "#F8FAFC" }}>
       {/* Header Section */}
       <header className="py-6 px-5" style={{ backgroundColor: "#151829" }}>
         <div className="max-w-6xl mx-auto flex items-center justify-between">
