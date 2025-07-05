@@ -64,12 +64,7 @@ export default function Index() {
             </a>
           </div>
           <div className="text-base" style={{ color: "rgb(30, 31, 37)" }}>
-            Last Updated On{" "}
-            {new Date().toLocaleDateString("en-US", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
+            Last Updated On July 4, 2025
           </div>
         </div>
       </section>
