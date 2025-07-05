@@ -438,7 +438,7 @@ export default function Index() {
                     className="text-lg font-semibold mb-4"
                     style={{ color: "rgb(30, 31, 37)" }}
                   >
-                    🧠 Scalable SEO for Converter Pages
+                    Scalable SEO for Converter Pages
                   </h4>
                   <div className="space-y-4">
                     <div>
