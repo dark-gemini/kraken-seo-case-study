@@ -190,7 +190,7 @@ export default function Index() {
                 <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-purple-500 to-violet-600 flex items-center justify-center">
                   <span className="text-white text-sm font-bold">1</span>
                 </div>
-                <h2 className="text-3xl font-semibold bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
+                <h2 className="text-3xl font-semibold bg-gradient-to-r from-gray-900 to-purple-700 bg-clip-text text-transparent">
                   Introduction: Understanding Kraken Exchange and its SEO
                   Landscape
                 </h2>
