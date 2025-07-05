@@ -155,7 +155,7 @@ export default function Index() {
                     : "hover:bg-purple-900/20"
                 }`}
                 style={{
-                  color: activeSection === item.id ? "#8B5CF6" : "#D1D5DB",
+                  color: activeSection === item.id ? "#8B5CF6" : "#374151",
                   borderColor:
                     activeSection === item.id ? "#8B5CF6" : "transparent",
                   backgroundColor:
