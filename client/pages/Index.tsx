@@ -90,7 +90,7 @@ export default function Index() {
         id="hero"
         className="py-16 px-5 text-center relative overflow-hidden"
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-violet-800/10 to-indigo-900/20"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-purple-50 via-violet-25 to-indigo-25"></div>
         <div className="max-w-4xl mx-auto relative z-10">
           <div
             className="inline-flex items-center space-x-3 mb-6 px-4 py-2 rounded-full"
