@@ -1254,7 +1254,7 @@ export default function Index() {
               className="text-lg font-semibold mb-4 pb-2 border-b-2 inline-block"
               style={{ color: "#1F2937", borderColor: "#8B5CF6" }}
             >
-              🐙 Kraken SEO
+              Quantum SEO
             </h3>
             <div style={{ color: "#6B7280" }}>
               <p>Advanced Technical SEO</p>
