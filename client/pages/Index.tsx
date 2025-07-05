@@ -276,7 +276,7 @@ export default function Index() {
             </section>
 
             {/* 2. Technical SEO Strategies */}
-            <section className="mb-12">
+            <section id="strategy" className="mb-12 scroll-mt-24">
               <h2
                 className="text-3xl font-semibold mb-6"
                 style={{ color: "rgb(30, 31, 37)" }}
