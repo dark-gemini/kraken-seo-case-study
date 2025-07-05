@@ -1,62 +1,92 @@
-import { DemoResponse } from "@shared/api";
-import { useEffect, useState } from "react";
+import { Button } from "@/components/ui/button";
 
 export default function Index() {
-  const [exampleFromServer, setExampleFromServer] = useState("");
-  // Fetch users on component mount
-  useEffect(() => {
-    fetchDemo();
-  }, []);
-
-  // Example of how to fetch data from the server (if needed)
-  const fetchDemo = async () => {
-    try {
-      const response = await fetch("/api/demo");
-      const data = (await response.json()) as DemoResponse;
-      setExampleFromServer(data.message);
-    } catch (error) {
-      console.error("Error fetching hello:", error);
-    }
-  };
-
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200">
-      <div className="text-center">
-        {/* TODO: FUSION_GENERATION_APP_PLACEHOLDER replace everything here with the actual app! */}
-        <h1 className="text-2xl font-semibold text-slate-800 flex items-center justify-center gap-3">
-          <svg
-            className="animate-spin h-8 w-8 text-slate-400"
-            viewBox="0 0 50 50"
+    <div className="min-h-screen" style={{ backgroundColor: "#0c0c0c" }}>
+      <section className="py-15 px-5">
+        <div className="max-w-4xl mx-auto text-white">
+          {/* Main Heading */}
+          <h1 className="text-4xl lg:text-5xl font-bold mb-5 leading-tight">
+            🚀 Kraken SEO Case Study
+          </h1>
+
+          {/* Description */}
+          <p className="text-lg leading-relaxed mb-8 text-gray-100">
+            Led a multi-domain SEO optimization effort at Kraken, improving
+            technical health, automation, and international targeting to drive
+            significant growth in organic traffic.
+          </p>
+
+          {/* Two Column Layout */}
+          <div className="grid md:grid-cols-2 gap-8 mb-10">
+            {/* Key Achievements Column */}
+            <div className="space-y-4">
+              <h2 className="text-xl font-semibold mb-4">Key Achievements</h2>
+              <ul className="space-y-3 text-gray-100">
+                <li className="flex items-start">
+                  <span className="text-green-400 mr-2">•</span>
+                  +85% organic traffic growth
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-400 mr-2">•</span>
+                  Improved page performance by 40%
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-400 mr-2">•</span>
+                  Boosted SEO ops efficiency by 60%
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-400 mr-2">•</span>
+                  Implemented hreflang for global content
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-400 mr-2">•</span>
+                  Reduced technical debt & crawl issues
+                </li>
+              </ul>
+            </div>
+
+            {/* Technologies Used Column */}
+            <div className="space-y-4">
+              <h2 className="text-xl font-semibold mb-4">Technologies Used</h2>
+              <ul className="space-y-3 text-gray-100">
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-2">•</span>
+                  Google Search Console
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-2">•</span>
+                  Google Analytics
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-2">•</span>
+                  JavaScript Rendering
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-2">•</span>
+                  Hreflang Tools
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-2">•</span>
+                  Looker Studio
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-2">•</span>
+                  SEO Automation Scripts
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* CTA Button */}
+          <Button
+            className="bg-slate-900 hover:bg-slate-800 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+            onClick={() => (window.location.href = "/contact")}
           >
-            <circle
-              className="opacity-30"
-              cx="25"
-              cy="25"
-              r="20"
-              stroke="currentColor"
-              strokeWidth="5"
-              fill="none"
-            />
-            <circle
-              className="text-slate-600"
-              cx="25"
-              cy="25"
-              r="20"
-              stroke="currentColor"
-              strokeWidth="5"
-              fill="none"
-              strokeDasharray="100"
-              strokeDashoffset="75"
-            />
-          </svg>
-          Generating your app...
-        </h1>
-        <p className="mt-4 text-slate-600 max-w-md">
-          Watch the chat on the left for updates that might need your attention
-          to finish generating
-        </p>
-        <p className="mt-4 hidden max-w-md">{exampleFromServer}</p>
-      </div>
+            Get in Touch
+          </Button>
+        </div>
+      </section>
     </div>
   );
 }
