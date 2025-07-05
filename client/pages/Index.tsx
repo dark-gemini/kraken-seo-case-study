@@ -647,25 +647,25 @@ export default function Index() {
                     <div
                       className="rounded-xl p-6 text-center border relative overflow-hidden group hover:scale-105 transition-transform duration-300"
                       style={{
-                        backgroundColor: "#1E1B3A",
-                        borderColor: "#374151",
+                        backgroundColor: "#FFFFFF",
+                        borderColor: "#E5E7EB",
                       }}
                     >
-                      <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-emerald-600/5"></div>
+                      <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-emerald-25"></div>
                       <div className="relative z-10">
                         <div className="text-4xl mb-3">📈</div>
-                        <div className="text-4xl font-bold mb-2 bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
+                        <div className="text-4xl font-bold mb-2 bg-gradient-to-r from-green-600 to-emerald-700 bg-clip-text text-transparent">
                           +85%
                         </div>
                         <div
                           className="text-sm font-medium"
-                          style={{ color: "#D1D5DB" }}
+                          style={{ color: "#374151" }}
                         >
                           Organic Traffic Growth
                         </div>
                         <div
                           className="w-full rounded-full h-3 mt-4"
-                          style={{ backgroundColor: "#374151" }}
+                          style={{ backgroundColor: "#F3F4F6" }}
                         >
                           <div
                             className="bg-gradient-to-r from-green-500 to-emerald-600 h-3 rounded-full shadow-lg"
