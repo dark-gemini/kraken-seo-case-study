@@ -1322,9 +1322,10 @@ export default function Index() {
             </h3>
             <ul className="space-y-3" style={{ color: "#6B7280" }}>
               <li className="flex items-center">
-                <span className="mr-3 text-lg" style={{ color: "#8B5CF6" }}>
-                  📧
-                </span>
+                <span
+                  className="mr-3 text-lg"
+                  style={{ color: "#8B5CF6" }}
+                ></span>
                 <a
                   href="/contact"
                   className="transition-colors"
