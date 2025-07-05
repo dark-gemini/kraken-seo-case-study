@@ -427,6 +427,69 @@ export default function Index() {
                     </li>
                   </ul>
                 </div>
+
+                {/* Execution Section */}
+                <div className="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                  <h4
+                    className="text-lg font-semibold mb-4"
+                    style={{ color: "rgb(30, 31, 37)" }}
+                  >
+                    Execution & Implementation
+                  </h4>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <h5
+                        className="font-semibold mb-3"
+                        style={{ color: "rgb(59, 130, 246)" }}
+                      >
+                        Tools & Technologies
+                      </h5>
+                      <ul
+                        className="space-y-2 text-sm"
+                        style={{ color: "rgb(30, 31, 37)" }}
+                      >
+                        <li>
+                          • Google Search Console for crawl stats and Core Web
+                          Vitals monitoring
+                        </li>
+                        <li>
+                          • PageSpeed Insights, GTmetrix, WebPageTest for
+                          performance analysis
+                        </li>
+                        <li>• Custom JavaScript rendering analysis scripts</li>
+                        <li>• Automated hreflang validation tools</li>
+                        <li>• SEO automation dashboards for team efficiency</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5
+                        className="font-semibold mb-3"
+                        style={{ color: "rgb(59, 130, 246)" }}
+                      >
+                        Cross-Functional Collaboration
+                      </h5>
+                      <ul
+                        className="space-y-2 text-sm"
+                        style={{ color: "rgb(30, 31, 37)" }}
+                      >
+                        <li>
+                          • Content teams for keyword integration and hierarchy
+                        </li>
+                        <li>
+                          • UX teams for site structure and mobile experience
+                        </li>
+                        <li>• Growth marketing for campaign alignment</li>
+                        <li>
+                          • Product & engineering for technical implementation
+                        </li>
+                        <li>
+                          • Security teams for HTTPS and trust signal
+                          optimization
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </section>
 
