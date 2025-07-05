@@ -228,7 +228,7 @@ export default function Index() {
                   }}
                 >
                   <h3 className="text-xl font-semibold mb-3 flex items-center space-x-2">
-                    <span className="text-2xl">⚠️</span>
+                    <span className="text-2xl"></span>
                     <span style={{ color: "#F59E0B" }}>Challenges</span>
                   </h3>
                   <p
