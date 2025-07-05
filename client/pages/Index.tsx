@@ -682,21 +682,21 @@ export default function Index() {
                         borderColor: "#374151",
                       }}
                     >
-                      <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/10 to-orange-600/5"></div>
+                      <div className="absolute inset-0 bg-gradient-to-br from-yellow-50 to-orange-25"></div>
                       <div className="relative z-10">
                         <div className="text-4xl mb-3">⚡</div>
-                        <div className="text-4xl font-bold mb-2 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+                        <div className="text-4xl font-bold mb-2 bg-gradient-to-r from-yellow-600 to-orange-700 bg-clip-text text-transparent">
                           +40%
                         </div>
                         <div
                           className="text-sm font-medium"
-                          style={{ color: "#D1D5DB" }}
+                          style={{ color: "#374151" }}
                         >
                           Page Load Improvement
                         </div>
                         <div
                           className="w-full rounded-full h-3 mt-4"
-                          style={{ backgroundColor: "#374151" }}
+                          style={{ backgroundColor: "#F3F4F6" }}
                         >
                           <div
                             className="bg-gradient-to-r from-yellow-500 to-orange-600 h-3 rounded-full shadow-lg"
