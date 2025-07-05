@@ -45,36 +45,39 @@ export default function Index() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#F8FAFC" }}>
       {/* Header Section */}
-      <header className="py-6 px-5" style={{ backgroundColor: "#151829" }}>
+      <header
+        className="py-6 px-5 border-b"
+        style={{ backgroundColor: "#FFFFFF", borderColor: "#E5E7EB" }}
+      >
         <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <div className="text-2xl font-bold" style={{ color: "#FFFFFF" }}>
+          <div className="text-2xl font-bold" style={{ color: "#1F2937" }}>
             🐙 Kraken SEO Analysis
           </div>
           <nav className="hidden md:flex space-x-8">
             <a
               href="#"
               className="text-lg font-medium transition-colors"
-              style={{ color: "#A1A1AA" }}
+              style={{ color: "#6B7280" }}
               onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
-              onMouseLeave={(e) => (e.target.style.color = "#A1A1AA")}
+              onMouseLeave={(e) => (e.target.style.color = "#6B7280")}
             >
               Resources
             </a>
             <a
               href="#"
               className="text-lg font-medium transition-colors"
-              style={{ color: "#A1A1AA" }}
+              style={{ color: "#6B7280" }}
               onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
-              onMouseLeave={(e) => (e.target.style.color = "#A1A1AA")}
+              onMouseLeave={(e) => (e.target.style.color = "#6B7280")}
             >
               About
             </a>
             <a
               href="/contact"
               className="text-lg font-medium transition-colors"
-              style={{ color: "#A1A1AA" }}
+              style={{ color: "#6B7280" }}
               onMouseEnter={(e) => (e.target.style.color = "#8B5CF6")}
-              onMouseLeave={(e) => (e.target.style.color = "#A1A1AA")}
+              onMouseLeave={(e) => (e.target.style.color = "#6B7280")}
             >
               Contact Us
             </a>
@@ -1112,7 +1115,7 @@ export default function Index() {
                       </a>
                     </li>
                     <li>
-                      •{" "}
+                      ��{" "}
                       <a
                         href="https://gracker.ai/seo-101/hreflang-implementation-guide"
                         className="hover:underline"
