@@ -200,8 +200,8 @@ export default function Index() {
                 <div
                   className="p-6 rounded-xl"
                   style={{
-                    backgroundColor: "#1E1B3A",
-                    border: "1px solid #374151",
+                    backgroundColor: "#F9FAFB",
+                    border: "1px solid #E5E7EB",
                   }}
                 >
                   <h3 className="text-xl font-semibold mb-3 flex items-center space-x-2">
@@ -212,7 +212,7 @@ export default function Index() {
                   </h3>
                   <p
                     className="leading-relaxed mb-4"
-                    style={{ color: "#D1D5DB", lineHeight: "28.8px" }}
+                    style={{ color: "#374151", lineHeight: "28.8px" }}
                   >
                     Kraken Exchange stands as a global leader in the volatile
                     yet burgeoning cryptocurrency market. Established in 2011,
