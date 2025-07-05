@@ -510,13 +510,25 @@ export default function Index() {
                   >
                     Key Performance Indicators (KPIs)
                   </h3>
+                  <div className="bg-yellow-50 rounded-lg p-4 mb-6 border border-yellow-200">
+                    <p className="text-sm" style={{ color: "rgb(30, 31, 37)" }}>
+                      <em>
+                        <strong>Note:</strong> While specific proprietary data
+                        for Kraken Exchange's technical SEO performance during
+                        2021-2022 is not publicly available, the following
+                        represents expected impacts of comprehensive technical
+                        SEO initiatives based on industry best practices and
+                        publicly available information.
+                      </em>
+                    </p>
+                  </div>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="bg-green-50 rounded-lg p-6 border border-green-200">
                       <h4
                         className="text-lg font-semibold mb-3"
                         style={{ color: "rgb(124, 198, 141)" }}
                       >
-                        Traffic & Visibility
+                        Expected Traffic & Visibility Impact
                       </h4>
                       <ul
                         className="space-y-2"
@@ -524,16 +536,19 @@ export default function Index() {
                       >
                         <li>
                           <strong>+85%</strong> organic traffic growth
-                          (non-branded)
+                          (non-branded, illustrative target)
                         </li>
                         <li>
-                          <strong>+150%</strong> international organic sessions
+                          <strong>Improved rankings</strong> for "buy Bitcoin,"
+                          "Ethereum price," "crypto staking"
                         </li>
                         <li>
-                          <strong>+92%</strong> converter page traffic
+                          <strong>Enhanced visibility</strong> through rich
+                          snippets and FAQ schema
                         </li>
                         <li>
-                          <strong>340%</strong> increase in featured snippets
+                          <strong>International reach</strong> via optimized
+                          hreflang implementation
                         </li>
                       </ul>
                     </div>
@@ -542,23 +557,27 @@ export default function Index() {
                         className="text-lg font-semibold mb-3"
                         style={{ color: "rgb(252, 141, 85)" }}
                       >
-                        Technical Performance
+                        Technical Performance Improvements
                       </h4>
                       <ul
                         className="space-y-2"
                         style={{ color: "rgb(30, 31, 37)" }}
                       >
                         <li>
-                          <strong>40%</strong> improvement in page load speed
+                          <strong>40%</strong> improvement in Core Web Vitals
+                          (realistic target)
                         </li>
                         <li>
-                          <strong>60%</strong> reduction in crawl errors
+                          <strong>Reduced crawl errors</strong> through
+                          systematic audits
                         </li>
                         <li>
-                          <strong>75%</strong> faster mobile page experience
+                          <strong>Enhanced mobile experience</strong> for
+                          mobile-first indexing
                         </li>
                         <li>
-                          <strong>95+</strong> average PageSpeed Insights score
+                          <strong>Optimized LCP, INP, CLS</strong> through
+                          technical optimizations
                         </li>
                       </ul>
                     </div>
